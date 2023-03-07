@@ -9,4 +9,4 @@ namespace: dev
 images:
 - name: testedocker
   newName: labacl/dev
-  newTag: testedocker.af92735
+  newTag: testedocker.8d31907
