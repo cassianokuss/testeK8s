@@ -9,4 +9,4 @@ namespace: dev
 images:
 - name: app2
   newName: labacl/dev
-  newTag: app2.45b0ef4
+  newTag: app2.3e898c5
