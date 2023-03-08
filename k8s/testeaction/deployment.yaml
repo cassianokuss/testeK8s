@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: testeaction
+spec:
+  selector:
+    matchLabels:
+      app: testeaction
+  template:
+    metadata:
+      labels:
+        app: testeaction
+    spec:
+      containers:
+      - name: testeaction
+        image: testeaction
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 80
+      imagePullSecrets:
+        - name: docker-hub
