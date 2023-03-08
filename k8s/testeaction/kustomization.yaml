@@ -9,4 +9,4 @@ namespace: dev
 images:
 - name: testeaction
   newName: labacl/dev
-  newTag: testeaction.8b82d8d
+  newTag: testeaction.f944332
